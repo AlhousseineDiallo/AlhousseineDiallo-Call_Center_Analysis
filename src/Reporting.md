@@ -36,10 +36,39 @@ Dans cette section, nous explorons les données du centre d'appels à travers de
 
 ### Graphiques de distribution des variables clés:
  #### 1- Histogrammes pour les variables continues:
-
+	- Ditribution des appels entrants:
 ![**Distribution des appels entrants**](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/3a79ce3eb0af52812e4f9ab45c8fa92303f4cad0/src/graphes/incoming_calls_dist.png)
 
+	- Distribution des appels abandonnés:
+ ![**Distribution des appels abandonnés**](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/3165ef2fe2985f1ed97070853da0b57124a717e2/src/graphes/abandoned_dist.png)
 
+	- Distribution de la vitesse de réponse:
+ ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/3165ef2fe2985f1ed97070853da0b57124a717e2/src/graphes/answer_time_dist.png)
+
+#### 2- Segmentation des variables clés temporellement(par mois et par jour):
+	- Volume des appels entrants par mois:
+ ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/7bfce6d3183c993075b697cd79f2ddfffb1aa2d8/src/graphes/incoming_calls_month.png)
+
+ 	- Volume des appels entrants par jour:
+  ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/695425f471cb3094a2b3d792be4eab78a599b2fe/src/graphes/incoming_calls_day.png)
+
+
+  	- Fluctuation mensuelle des appels abandonnés:
+   ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/e94c1aa68824c1552101557ab8c79890696b370d/src/graphes/line_month_abandoned.png)
+
+
+	- Volume des appels abandonnés par jour:
+ ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/e94c1aa68824c1552101557ab8c79890696b370d/src/graphes/abandoned_calls_day.png)
+
+ 	- Variation mensuelle du temps d'attente:
+  ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/e94c1aa68824c1552101557ab8c79890696b370d/src/graphes/waiting_time_month.png)
+
+  	- Saisonnalité de la qualité du service(C'est à dire le taux d'appels répondus en moins de 20 secondes):
+   ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/e94c1aa68824c1552101557ab8c79890696b370d/src/graphes/line_quality_rate.png)
+
+#### 3- Décryptage des relations: Corrélations entre les données du Centre d'Appels:
+![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/978e55ab611eaa9a99dc5d4c3cdd2187bc740883/src/graphes/corr1.png)
+   
 ---
 ## **Insights(Observations) clés:**
 
