@@ -37,7 +37,7 @@ Dans cette section, nous explorons les données du centre d'appels à travers de
 ### Graphiques de distribution des variables clés:
  #### 1- Histogrammes pour les variables continues:
 
-![**Distribution des appels entrants**](graphes/incoming_calls_dist.png)
+![**Distribution des appels entrants**](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/3a79ce3eb0af52812e4f9ab45c8fa92303f4cad0/src/graphes/incoming_calls_dist.png)
 
 
 ---
