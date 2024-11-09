@@ -37,7 +37,7 @@ Dans cette section, nous explorons les données du centre d'appels à travers de
 ### Graphiques de distribution des variables clés:
  #### 1- Histogrammes pour les variables continues:
 
-![**Distribution des appels entrants**](graphes/incoming_calls_dist(1).png)
+![**Distribution des appels entrants**](graphes/incoming_calls_dist.png)
 
 
 ---
