@@ -1,7 +1,7 @@
 # Rapport d'Analyse - Call Center Project
 
 ## 1. Introduction:
-Dans le cadre de l'analyse de données d'un centre d'Appels, nous avons entreprit une exploration et une analyse minutieuse des métriques dans le but de détecter les périodes de rush ou de forte activités du Centre d'Appels et les facteurs qui influencent le nombre d'appels abandonnés pour optimiser les performance du Centre d'Appels
+Dans le cadre de l'analyse de données d'un centre d'Appels, nous avons entreprit une exploration et une analyse minutieuse des métriques dans le but de détecter les périodes de rush ou de forte activités du Centre d'Appels et les facteurs qui influencent le nombre d'appels abandonnés pour optimiser les performance du Centre d'Appels.
 
 ## Objectif du rapport:
 
