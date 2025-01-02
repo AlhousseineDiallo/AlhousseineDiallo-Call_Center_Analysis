@@ -50,7 +50,7 @@ Dans cette section, nous explorons les données du centre d'appels à travers de
 
  #### 2- Segmentation des variables clés temporellement(par mois et par jour):
 	- Volume des appels entrants par mois:
- ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/7bfce6d3183c993075b697cd79f2ddfffb1aa2d8/src/graphes/incoming_calls_month.png)
+ ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/21d6504d5d381a5af688522a8d685dd50c0bbd28/src/graphes/incoming_calls_month%20(2).png)
  	- _**Ici on analyse le nombre total d'appels reçus chaque mois. Les mois de décembre et octobre ont les volumes d'appels les plus élevés, tandis que le mois de juin a le volume le plus bas.**_
 
  	- Volume des appels entrants par jour:
