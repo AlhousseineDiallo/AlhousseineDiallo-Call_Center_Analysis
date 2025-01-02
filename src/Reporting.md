@@ -66,7 +66,7 @@ Dans cette section, nous explorons les données du centre d'appels à travers de
 	- _**Montre les abandons d'appels par jour de la semaine. Les abandons sont plus fréquents les jours où le volume d'appels est élevé.**_
 
  	- Volume mensuelle du temps d'attente:
-  ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/b8052bb9e5329dfe09c5a8ff1c4e87df75c507d7/src/graphes/waiting_time_month%20(1).png)
+  ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/fa2759f665e0cf72e872b5b75f5490bfc777bba9/src/graphes/waiting_time_month%20(2).png)
   	- _**Cette visualisation indique combien de temps les clients attendent avant qu'un agent réponde. Les temps d'attente sont plus longs pendant les mois avec beaucoup d'appels.**_
 
   	- Saisonnalité de la qualité du service(C'est à dire le taux d'appels répondus en moins de 20 secondes):
