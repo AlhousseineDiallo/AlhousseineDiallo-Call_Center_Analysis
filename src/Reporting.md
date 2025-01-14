@@ -1,7 +1,7 @@
 # Rapport d'Analyse - Call Center Project
 
 ## 1. Introduction:
-Dans le cadre de l'analyse de données d'un centre d'Appels, nous avons entreprit une exploration et une analyse minutieuse des valeurs dans le but de détecter les périodes de rush ou de forte activités du Centre d'Appels et les facteurs qui influencent le nombre d'appels abandonnés pour optimiser les performance du Centre d'Appels.
+Dans le cadre de l'analyse de données d'un centre d'Appels, nous avons entrepris une exploration et une analyse minutieuse des valeurs dans le but de détecter les périodes de rush ou de forte activités du Centre d'Appels et les facteurs qui influencent le nombre d'appels abandonnés pour optimiser les performance du Centre d'Appels.
 
 ## 2. Objectif du rapport:
 
@@ -12,16 +12,16 @@ L'analyse vise à répondre aux questions suivantes:
 
 ## 3. Aperçu des données utilisées:
 
-L'analyse est basé sur des données d'un centre d'appels fictif qui couvre l'année 2021.
-Les principales métriques, qui ont constituées le socle, la pierre angulaire de mes analyses sont:
+L'analyse est basée sur les données d'un centre d'appels qui couvre l'année 2021.
+Les principales métriques, qui ont constitué le socle, la pierre angulaire de mes analyses sont:
 
 - `incoming_calls`: le nombre d'appels entrants, soit tous les appels que le centre d'appels a reçus.
 
 - `answered_calls`: le nombre d'appels qui ont été répondus par nos agents.
 
-- `abandoned_calls`: le nombre d'appels où l'appelant à raccroché avant de parler à un agent.
+- `abandoned_calls`: le nombre d'appels où l'appelant a raccroché avant de parler à un agent.
 
-- `answer_speed(seconds)`: Le temps moyen en secondes que les agents ont mis pour répondre aux appels après que ces derniers aient été reçu.
+- `answer_speed(seconds)`: Le temps moyen en secondes que les agents ont mis pour répondre aux appels après que ces derniers aient été reçus.
 
 - `waiting_time(seconds)`: Le temps moyen en secondes que les appelants ont passé en attente avant qu'un agent ne réponde.
 
@@ -32,11 +32,11 @@ Les principales métriques, qui ont constituées le socle, la pierre angulaire d
 ## 4. **Visualisation des tendances et des performances: Analyse Graphiques**
 ### 4.1 Introduction:
 
-Dans cette section, nous explorons les données du centre d'appels à travers des visualisations graphiques afin de mettre en évidence les tendances, les distributions et les relations entre les différentes métriques clés. Les graphiques permettent une compréhension visuelle des comportements observés, comme les périodes de forte activité, les variations de performance en fonction des jours ou des mois, et les éventuelles corrélations entre variables.
+Dans cette section, nous explorons les données du centre d'appels à travers des visualisations graphiques afin de mettre en évidence les tendances, les distributions et les relations entre les différentes métriques clés. Les graphiques permettent une compréhension visuelle des comportements observés comme les périodes de forte activité, les variations de performance en fonction des jours ou des mois, et les éventuelles corrélations entre variables.
 
 ### 4.2 Graphiques montrant la distribution des variables clés:
  #### 1- Histogrammes pour les variables continues:
-	- Ditribution des appels entrants:
+	- Distribution des appels entrants:
 ![**Distribution des appels entrants**](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/3a79ce3eb0af52812e4f9ab45c8fa92303f4cad0/src/graphes/incoming_calls_dist.png)
 	- _**Ce graphique nous montre le nombre d'appels que le centre d'appels reçoit par jour, il semble assez clair que la plupart des jours le nombre d'appels se situe entre 100 et 200.**_
  
@@ -46,16 +46,16 @@ Dans cette section, nous explorons les données du centre d'appels à travers de
 
 	- Distribution de la vitesse de réponse:
  ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/3165ef2fe2985f1ed97070853da0b57124a717e2/src/graphes/answer_time_dist.png)
- 	- _**Cette visualisation nous montre le temps moyen que les agents prennent pour répondre aux appels. En général, les appels sont répondus entre 10 et 25 secondes.**_
+ 	- _**Cette visualisation nous montre le temps moyen que les agents prennent pour répondre aux appels. En général, les appels reçoivent une réponse entre 10 et 25 secondes.**_
 
  #### 2- Segmentation des variables clés temporellement(par mois et par jour):
 	- Volume des appels entrants par mois:
  ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/21d6504d5d381a5af688522a8d685dd50c0bbd28/src/graphes/incoming_calls_month%20(2).png)
- 	- _**Ici on analyse le nombre total d'appels reçus chaque mois. Les mois de décembre et octobre ont les volumes d'appels les plus élevés, tandis que le mois de juin a le volume le plus bas.**_
+ 	- _**Ici on analyse le nombre total d'appels reçus chaque mois. Les mois de décembre et octobre ont les volumes d'appels les plus élevés, tandis que le mois de juin a le volume le plus faible.**_
 
  	- Volume des appels entrants par jour:
   ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/695425f471cb3094a2b3d792be4eab78a599b2fe/src/graphes/incoming_calls_day.png)
-	- _**Ce graphique affiche les appels entrants par jour de la semaine. Les mercredis et les week-ends ont les pics d'appels les plus élevés.**_
+	- _**Ce graphique montre les appels entrants par jour de la semaine. Les mercredis et les week-ends ont les pics d'appels les plus élevés.**_
 
   	- Fluctuation mensuelle des appels abandonnés:
    ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/e94c1aa68824c1552101557ab8c79890696b370d/src/graphes/line_month_abandoned.png)
@@ -63,19 +63,19 @@ Dans cette section, nous explorons les données du centre d'appels à travers de
 
 	- Volume des appels abandonnés par jour:
  ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/e94c1aa68824c1552101557ab8c79890696b370d/src/graphes/abandoned_calls_day.png)
-	- _**Montre les abandons d'appels par jour de la semaine. Les abandons sont plus fréquents les jours où le volume d'appels est élevé.**_
+	- _**Ce graphique nous montre la proportion des appels abandonnés par jour de la semaine. Les abandons sont plus fréquents les jours où le volume d'appels est important.**_
 
- 	- Volume mensuelle du temps d'attente:
+ 	- Volume mensuel du temps d'attente:
   ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/fa2759f665e0cf72e872b5b75f5490bfc777bba9/src/graphes/waiting_time_month%20(2).png)
   	- _**Cette visualisation indique combien de temps les clients attendent avant qu'un agent ne réponde. Les temps d'attente sont plus longs pendant les mois avec beaucoup d'appels.**_
 
-  	- Saisonnalité de la qualité du service(C'est à dire le taux d'appels répondus en moins de 20 secondes):
+  	- Saisonnalité de la qualité du service(c'est à dire le taux d'appels répondus en moins de 20 secondes):
    ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/e94c1aa68824c1552101557ab8c79890696b370d/src/graphes/line_quality_rate.png)
 	- _**Ce graphique indique que la qualité du service diminue pendant les périodes de forte affluence et qu'à contrario il augmente durant les périodes de faible affluence**_
 
  #### 3- Décryptage des relations: Corrélations entre les données du Centre d'Appels:
 ![](https://github.com/AlhousseineDiallo/AlhousseineDiallo-Call_Center_Analysis/blob/978e55ab611eaa9a99dc5d4c3cdd2187bc740883/src/graphes/corr1.png)
-	- _**Ce graphique illustre les relations entre les différentes métriques à l'aide d'un nuancée de couleurs, notons que plus la couleur est foncée plus la relation est forte et vice-versa.**_
+	- _**Ce graphique illustre les relations entre les différentes métriques à l'aide d'un dégradé de couleurs, notons que plus la couleur est foncée plus la relation est forte et vice-versa.**_
 
 ---
 ## 5. **Insights(Observations) clés:**
@@ -84,22 +84,22 @@ Conformément aux visualisations et aux analyses effectuées, les observations s
 
  ### 1- Périodes de rush ou de forte activité:
    - Au niveau des mois: Le mois de Décembre et le mois d'Octobre constituent des mois de forte activité avec un nombre total d'appels entrants qui dépasse la barre des 6400 pour ces deux mois.
-   - Au niveau des jour de la semaine: Les appels entrants atteignent des pics le mercredi et le week-end, avec une activité relativement faible en début de semaine notamment le mardi qui compte un nombre d'appels entrants anormalement bas.
+   - Au niveau des jour de la semaine: Les appels entrants atteignent des pics le mercredi et le week-end, avec une activité relativement faible en début de semaine, notamment le mardi qui compte un nombre d'appels entrants anormalement bas.
 
  ### 2- Relation entre nos métriques:
 
    - Une corrélation parfaite entre les appels entrants(incoming_calls) et les appels répondus(answered_calls):
-Ce qui montre que les agents montrent une bonne réactivité et une bonne performance avec les fluctuations croissantes du nombre d'appels entrants, suggérant une capacité de réponse très constante quel que soit le volume des appels entrants.
+Ce qui montre que les agents ont une bonne réactivité et une bonne performance avec les fluctuations croissantes du nombre d'appels entrants, suggérant une capacité de réponse très constante quel que soit le volume des appels entrants.
 	
-   - Une corrélation négative très forte entre la vitesse de réponse et le service level qui mesure le pourcentage d'appels répondus en moins de 20 secondes. Ce qui traduit que plus la réactivité de nos agents est bonne plus la qualité de leur service l'est également.
+   - Une corrélation négative très forte entre la vitesse de réponse et le service level, qui mesure le pourcentage d'appels répondus en moins de 20 secondes. Ce qui traduit que plus la réactivité de nos agents est bonne plus la qualité de leur service l'est également.
 
-   - Une corrélation positive forte entre le nombre d'appels entrants et le nombre d'appels abandonnés: Ce qui traduit que plus les appels entrants augmentent plus le nombre d'appels abandonné tend à augmenter également et inversement.
+   - Une corrélation positive forte entre le nombre d'appels entrants et le nombre d'appels abandonnés: Ce qui traduit que plus les appels entrants augmentent plus le nombre d'appels abandonnés tend à augmenter également et inversement.
 
   - Une forte corrélation positive entre le temps d'attente et le nombre d'appels abandonnés: ce qui induit que le nombre d'appels abandonnés tend à augmenter avec la hausse du temps d'attente moyen et inversement.
 	
 
  ### 3- Durée des appels:
-   - La durée des appels est assez constante quelque soit le taux d'affluence, ce qui traduit une adaptabilité moindre de nos agents selon que la période soit calme ou à forte activité.
+   - La durée des appels est assez constante quelque soit le niveau d'affluence, ce qui traduit une adaptabilité moindre de nos agents selon que la période soit calme ou à forte activité.
 
 
  ### 4- Impact des périodes de rush sur les ratios ou indicateurs de performance:
